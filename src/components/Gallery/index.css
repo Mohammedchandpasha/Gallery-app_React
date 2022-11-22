@@ -1,0 +1,32 @@
+/* Write your code here. */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.image {
+  height: 400px;
+  width: 400px;
+}
+.heading {
+  font-size: 13px;
+  align-self: flex-start;
+  margin-right: 280px;
+}
+.heading-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.heading-1 {
+  font-size: 10px;
+  align-self: flex-start;
+  margin-right: 260px;
+  color: #64748b;
+}
+.thumbnail-items {
+  display: flex;
+  flex-direction: row;
+}
